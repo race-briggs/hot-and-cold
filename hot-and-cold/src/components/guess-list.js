@@ -14,6 +14,6 @@ export default function GuessList(props) {
 	return (
 		<ul id="guessList" className="guessListContainer">
 			{guesses}
-		<ul>
+		</ul>
 	);
 }
