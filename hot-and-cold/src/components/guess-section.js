@@ -1,5 +1,5 @@
 import React from 'react';
-import Feedback from './feedback,js';
+import Feedback from './feedback.js';
 import GuessForm from './guess-form.js';
 import './guess-section.css';
 
