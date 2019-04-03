@@ -11,7 +11,7 @@ export default function GuessSection(props){
 				className="guess-section"
 			>
 				<Feedback feedback={feedback} guessCount={guessCount} />
-				<GuessForm makeGuess={guess => props.makeGuess(guess)}/>
+				<GuessForm onMakeGuess={guess => props.onMakeGuess(guess)}/>
 			</section>
 		)
 }
